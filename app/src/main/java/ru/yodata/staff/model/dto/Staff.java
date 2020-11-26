@@ -1,4 +1,4 @@
-package ru.yodata.staff.dto;
+package ru.yodata.staff.model.dto;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,4 +1,4 @@
-package ru.yodata.staff;
+package ru.yodata.staff.model;
 
 import android.util.Log;
 import androidx.lifecycle.MutableLiveData;
@@ -8,9 +8,9 @@ import io.reactivex.schedulers.Schedulers;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
-import ru.yodata.staff.dto.Staff;
-import static ru.yodata.staff.MainActivity.SERVER_URL;
-import static ru.yodata.staff.MainActivity.TAG;
+import ru.yodata.staff.model.dto.Staff;
+import static ru.yodata.staff.view.MainActivity.SERVER_URL;
+import static ru.yodata.staff.view.MainActivity.TAG;
 
 // Репозиторий для получения данных о сотрудниках c сервера REST API
 public class Repository {

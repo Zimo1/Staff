@@ -1,4 +1,4 @@
-package ru.yodata.staff;
+package ru.yodata.staff.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.LiveData;
@@ -13,7 +13,7 @@ import android.util.Log;
 import android.view.View;
 import java.util.ArrayList;
 import ru.yodata.staff.databinding.ActivityMainBinding;
-import ru.yodata.staff.dto.Staff;
+import ru.yodata.staff.model.dto.Staff;
 import ru.yodata.staff.viewmodel.StaffRecyclerViewAdapter;
 import ru.yodata.staff.viewmodel.StaffViewModel;
 

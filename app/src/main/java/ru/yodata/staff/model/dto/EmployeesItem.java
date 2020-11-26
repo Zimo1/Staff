@@ -1,6 +1,4 @@
-package ru.yodata.staff.dto;
-
-import android.util.Log;
+package ru.yodata.staff.model.dto;
 
 import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;

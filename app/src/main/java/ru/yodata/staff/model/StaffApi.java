@@ -1,8 +1,8 @@
-package ru.yodata.staff;
+package ru.yodata.staff.model;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
-import ru.yodata.staff.dto.Staff;
+import ru.yodata.staff.model.dto.Staff;
 
 // Работа с сервером REST API
 public interface StaffApi {

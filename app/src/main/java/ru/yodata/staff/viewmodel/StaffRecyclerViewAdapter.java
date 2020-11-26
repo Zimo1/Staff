@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import ru.yodata.staff.databinding.EmployeeCardBinding;
-import ru.yodata.staff.dto.EmployeesItem;
+import ru.yodata.staff.model.dto.EmployeesItem;
 
 // Адаптер для Recycler View со стандартными методами для подобных адаптеров
 public class StaffRecyclerViewAdapter extends
